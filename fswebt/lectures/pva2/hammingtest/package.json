@@ -1,0 +1,19 @@
+{
+  "name": "hammingtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hamming": "0.0.2",
+    "jest-cli": "^25.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}

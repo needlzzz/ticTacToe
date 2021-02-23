@@ -1,0 +1,10 @@
+query {
+  allStarships (filter: {
+    AND: {
+    	maxAtmospheringSpeed_gt: 1000
+      passengers_gt: 5 
+    }
+  }) {
+    name
+  }
+}
